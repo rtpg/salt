@@ -707,7 +707,7 @@ def sync_clouds(saltenv=None, refresh=True, extmod_whitelist=None, extmod_blackl
     '''
     .. versionadded:: 2017.7.0
 
-    Sync cloud modules from ``salt://_cloud`` to the minion
+    Sync cloud modules from ``salt://_clouds`` to the minion
 
     saltenv : base
         The fileserver environment from which to sync. To sync from more than
